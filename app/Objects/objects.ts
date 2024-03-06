@@ -13,7 +13,10 @@ export const main = [
     ]
   },  
   {
-    id:4,tittle:'destinations',children:[]
+    id:4,tittle:'destinations',children:[
+      { id:1000,tittle:'ha giang loop tour (4d4n)'},
+      { id:1000,tittle:'ha giang loop tour (3d3n)'}
+    ]
   },
   {
     id:5,tittle:'blog',children:[]

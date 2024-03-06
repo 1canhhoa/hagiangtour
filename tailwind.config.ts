@@ -87,7 +87,9 @@ const config = {
         'btn': ' 0px 2px 8px 0px rgba(99, 99, 99, .2)'
       }
       ,boxShadow:{
-        'btn':' 0px 2px 8px 0px rgba(99, 99, 99, .2)'
+        // 4px 4px 20px 0px rgba(0, 0, 0, .04), 0px 0px 12px 0px rgba(235, 255, 209, .1);
+        'btn':' 0px 2px 8px 0px rgba(99, 99, 99, .2)',
+        'itemTrave':'4px 4px 20px 0px rgba(0, 0, 0, .04), 0px 0px 12px 0px rgba(235, 255, 209, .1)'
       },
       backgroundImage:theme => ({
         'bl': 'linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%)',

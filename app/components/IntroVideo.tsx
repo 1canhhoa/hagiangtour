@@ -139,7 +139,7 @@ export default function IntroVideo() {
              after:text-xl after:bg-white w-[3rem] h-[3rem] rounded-full 
              absolute   top-1/2 -translate-y-1/2 right-20 rotate-180"
             >
-              <Image alt="sss" width={999} height={999} src='/home/btn-left.svg' className="w-[2rem] h-[2trem]" />
+              <Image alt="sss" width={999} height={999} src='/home/btn-left.svg' className=" w-[2rem] h-[2trem]" />
             </div>
             <div className="swiper-pagination">
 
