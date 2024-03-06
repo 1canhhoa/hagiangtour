@@ -186,7 +186,7 @@ export default function Home() {
             onSwiper={(swiper) => setSwiper(swiper)}
           >
             {data.map((d, i) => (
-              <SwiperSlide className=' rounded-xl'>
+              <SwiperSlide key={i} className=' rounded-xl'>
                 <div className=' rounded-xl'>
                   <div className="w-full max-md:rounded-[3.2rem] shadow-btn h-[14rem] relative rounded-[1rem] overflow-hidden p-[1.56rem] max-md:p-[5.33rem] flex flex-col items-center justify-center lg:bg-background-elevation-01 lg:hover:bg-white transition-all duration-300 bg-slate-100 max-lg:h-[28rem] max-md:h-[67.733rem]">
                     <p className="text-[0.875rem] th-textgray font-normal max-md:line-clamp-[7] line-clamp-5 leading-[1.57] text-gray-scale-50 tracking-[0.00219rem] text-center max-lg:text-[1.875rem] max-md:text-[3.733rem] max-md:tracking-[0.00933rem]">

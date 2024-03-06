@@ -27,7 +27,7 @@ export default function App() {
         className="w-full h-full th-bd"
       >
         {data.map((d, i) => (
-          <SwiperSlide className='th-bd'>
+          <SwiperSlide key={i} className='th-bd'>
             <div className='h-[500px]'>Slide {i}</div>
           </SwiperSlide>
         ))}
