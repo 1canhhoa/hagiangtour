@@ -41,14 +41,14 @@ function StartWith() {
         </div>
 
         <Reveal direction="left">
-          <div data-aos="fade-left" className=" relative lg:w-[35.4375rem] max-md:mt-[6rem] max-md:w-[86.4rem] max-lg:mt-[4rem] md:h-[57rem] md:w-[51rem] max-md:h-[104.83733rem] lg:h-auto lg:mr-0 max-lg:mx-auto aos-init aos-animate">
+          <div data-aos="fade-left" className="  relative lg:w-[35.4375rem] max-md:mt-[6rem] max-md:w-[86.4rem] max-lg:mt-[4rem] md:h-[57rem] md:w-[51rem] max-md:h-[104.83733rem] lg:h-auto lg:mr-0 max-lg:mx-auto aos-init aos-animate">
             <Image alt="ss" src='/home/mapvn.avif' width={9999} height={9999} className="object-contain h-full w-full" />
 
           </div>
         </Reveal>
 
         <Reveal direction="up">
-          <div data-aos="fade-up" className="lg:pt-[9.17rem] lg:w-fit max-md:mt-[2.33rem] max-md:overflow-hidden max-lg:mt-[1.5rem] aos-init aos-animate">
+          <div data-aos="fade-up" className=" lg:pt-[9.17rem] lg:w-fit max-md:mt-[2.33rem] max-md:overflow-hidden max-lg:mt-[1.5rem] aos-init aos-animate">
             <ul className="grid grid-cols-2 gap-[1.51rem] max-md:hidden max-lg:w-[80rem] max-md:w-full md:mx-auto lg:mx-0">
               {data.map((d, i) => (
                 <li key={i} className="h-[5.13175rem] w-[20.60419rem] max-lg:h-[13rem] max-lg:w-[36rem] relative flex justify-center items-center">

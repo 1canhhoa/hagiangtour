@@ -4,7 +4,10 @@ export const main = [
     id:1,tittle:'home',children:[]
   },
   {
-    id:2,tittle:'about us',children:[]
+    id:2,tittle:'about us',    children:[
+      { id:1000,tittle:'ha giang loop tour (4d4n)'},
+      { id:1000,tittle:'ha giang loop tour (3d3n)'}
+    ]
   },
   {
     id:3,tittle:'tour',children:[
@@ -13,22 +16,35 @@ export const main = [
     ]
   },  
   {
-    id:4,tittle:'destinations',children:[
+    id:4,tittle:'destinations',
+    children:[
       { id:1000,tittle:'ha giang loop tour (4d4n)'},
       { id:1000,tittle:'ha giang loop tour (3d3n)'}
     ]
   },
   {
-    id:5,tittle:'blog',children:[]
+    id:5,tittle:'blog',    children:[
+      { id:1000,tittle:'ha giang loop tour (4d4n)'},
+      { id:1000,tittle:'ha giang loop tour (3d3n)'}
+    ]
   },
   {
-    id:6,tittle:'faq',children:[]
+    id:6,tittle:'faq',    children:[
+      { id:1000,tittle:'ha giang loop tour (4d4n)'},
+      { id:1000,tittle:'ha giang loop tour (3d3n)'}
+    ]
   },
   {
-    id:7,tittle:'contact',children:[]
+    id:7,tittle:'contact',    children:[
+      { id:1000,tittle:'ha giang loop tour (4d4n)'},
+      { id:1000,tittle:'ha giang loop tour (3d3n)'}
+    ]
   },
   {
-    id:1,tittle:'vietnam cheers hotel',children:[]
+    id:1,tittle:'vietnam cheers hotel',    children:[
+      { id:1000,tittle:'ha giang loop tour (4d4n)'},
+      { id:1000,tittle:'ha giang loop tour (3d3n)'}
+    ]
   },
 ]
 

@@ -60,9 +60,16 @@ export default function IntroVideo() {
     }
   };
 
+  const videoRefMobile = useRef<HTMLVideoElement>(null);
+
+  const toggleMuteMobile = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !videoRef.current.muted;
+      setIsMuted(!isMuted);
+    }
+  };
 
   return (
-    // <div className="py-3 bg-white shadow-btn">
     <div className="mt-[30rem] sm:mt-[26rem] md:mt-[17rem] lg:mt-[4rem]  relative w-full overflow-x-hidden overflow-y-hidden">
       <motion.div
         ref={ref1}
@@ -146,6 +153,7 @@ export default function IntroVideo() {
             </div>
 
           </Swiper >
+
         </section>
         {/* Award */}
         <div className=" gap-x-6 flex absolute bottom-24 left-1/2 -translate-x-1/2 z-50 h-[90px] ">
@@ -169,8 +177,8 @@ export default function IntroVideo() {
         <Volumn toggleMute={toggleMute} isMuted={isMuted} />
 
       </motion.div>
-      <div className="w-[100vw] relative  th-fl lg:hidden mt-[7rem] h-[80vh] th-bd sm:h-[90vh] th-fl">
-        <video src="/home/hagiangVideoMobile.mp4" ref={videoRef} autoPlay muted={isMuted} loop className="object-cover w-full h-full" />
+      <div className="w-[100vw] relative  th-fl lg:hidden mt-[7rem] h-[150rem] sm:h-[90vh] th-fl">
+        <video src="/home/hagiangVideoMobile.mp4" ref={videoRefMobile} autoPlay playsInline muted={isMuted} loop className="object-cover w-full h-full" />
         <div className="absolute bottom-24 left-20 gap-y-10 flex flex-col">
           <div className="flex lg:flex-col max-lg:gap-x-[2.13rem] items-center lg:justify-center">
             <Image alt="sss" width={999} height={999} src='/home/award.svg' className="w-32 h-32 object-cover" />
@@ -188,7 +196,7 @@ export default function IntroVideo() {
             </div>
           </div>
         </div>
-        <Volumn toggleMute={toggleMute} isMuted={isMuted} />
+        <Volumn toggleMute={toggleMuteMobile} isMuted={isMuted} />
       </div>
 
 
@@ -212,6 +220,5 @@ export default function IntroVideo() {
         <h2 id="title" className="text-[3rem] font-extrabold leading-[1] max-lg:text-[6.4rem] max-lg:leading-[1.17] max-lg:text-white" >HA GIANG LOOP</h2>
       </motion.div>
     </div>
-    // </div>
   );
 }
