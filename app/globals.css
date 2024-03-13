@@ -37,7 +37,7 @@ body{
 @font-face {
   font-family: 'Font3';
   font-style: normal;
-  /* font-weight: 400; */
+  font-weight: 400;
   src: local('Font3'), url('../static-fonts/Poppins-Bold.ttf') format('truetype');
 }
 .th-ft{
