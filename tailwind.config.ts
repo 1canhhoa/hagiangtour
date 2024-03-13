@@ -79,9 +79,14 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        'rubik-glitch-pop': ["Rubik Glitch Pop", 'sans-serif'], // Định nghĩa font-family mặc định
-        'tomatos':['tomatos','sans-serif'],
-        'poppins':['poppins','sans-serif']
+        'tomatos': [ 'tomatos', 'sans-serif' ],// font local
+        'poppins': [ 'var(--font-poppin )' ],      // next font
+        'taro_tamil': [ 'var(--Tiro-Tamil )' ],      // next font
+        'roboto': [ 'var(--font-Roboto )' ],    // next font
+
+        'font1': [ '"font1"', 'sans-serif' ],
+        'font2': [ '"font2"', 'sans-serif' ],
+        'font3': [ '"font3"', 'sans-serif' ],
       },
       dropShadow: {
         'btn': ' 0px 2px 8px 0px rgba(99, 99, 99, .2)'
